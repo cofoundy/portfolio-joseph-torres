@@ -1,0 +1,125 @@
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[margin=0.5in, top=0.45in, bottom=0.45in]{geometry}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+% --- Fonts ---
+\setmainfont{Times New Roman}
+\setsansfont{Helvetica Neue}
+
+% --- Colors ---
+\definecolor{headrule}{HTML}{2c3e50}
+\definecolor{linkblue}{HTML}{1a5276}
+
+% --- Hyperlinks ---
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue, pdfborder={0 0 0}}
+
+% --- Section Formatting ---
+\titleformat{\section}
+  {\large\bfseries\centering}
+  {}
+  {0em}
+  {\vspace{-0.4em}\hrulefill\quad}[\quad\hrulefill\vspace{-0.4em}]
+\titlespacing{\section}{0pt}{0.5em}{0.2em}
+
+% --- List Formatting ---
+\setlist[itemize]{nosep, left=0pt, label=\textbullet, itemsep=0pt, topsep=1pt}
+
+\pagestyle{empty}
+
+% --- Custom Commands ---
+\newcommand{\entry}[4]{%
+  \noindent\textbf{#1} \hfill #2 \par\nopagebreak
+  \textit{#3} \hfill \textit{#4} \par\nopagebreak
+}
+
+\begin{document}
+
+% ============================================
+% HEADER
+% ============================================
+\begin{center}
+  {\LARGE\bfseries Joseph Bryant Torres Pedragas} \\[3pt]
+  \faIcon{map-marker-alt}\enspace Lima, Per\'{u}
+  \quad\faIcon{envelope}\enspace \href{mailto:joseph_pedragas@hotmail.com}{joseph\_pedragas@hotmail.com}
+  \quad\faIcon{phone}\enspace +51 949 223 718
+  \\[2pt]
+  \faIcon{linkedin}\enspace \href{https://linkedin.com/in/joseph-torres-pedragas}{linkedin.com/in/joseph-torres-pedragas}
+\end{center}
+
+\vspace{-0.4em}
+\noindent\rule{\textwidth}{0.8pt}
+\vspace{-0.8em}
+
+% ============================================
+% EXPERIENCIA
+% ============================================
+\section{Experiencia Profesional}
+
+\entry{AGQ Per\'{u} S.A.C.}{Lima, Per\'{u}}{Sub-Gerente -- \'{A}rea Food \& Feed}{Jul 2024 -- Presente}
+\begin{itemize}
+  \item Dirigi\'{o} estrategia comercial del \'{a}rea Food \& Feed, gestionando portafolio de +30 clientes del sector alimentario
+  \item Lider\'{o} equipos comerciales y t\'{e}cnicos de 8 personas, alcanzando 100\% de cumplimiento en metas trimestrales
+  \item Coordin\'{o} con laboratorios acreditados para asegurar cumplimiento normativo ISO 17025 en an\'{a}lisis de alimentos
+  \item Elabor\'{o} reportes de gesti\'{o}n y an\'{a}lisis de mercado para Gerencia General, identificando 5+ oportunidades de crecimiento
+\end{itemize}
+\vspace{0.2em}
+
+\entry{AGQ Per\'{u} S.A.C.}{Lima, Per\'{u}}{Ejecutivo Comercial}{Ene 2020 -- Jun 2024}
+\begin{itemize}
+  \item Gestion\'{o} pipeline de oportunidades comerciales, cerrando +15 contratos de servicios anal\'{i}ticos por a\~{n}o
+  \item Desarroll\'{o} relaciones con clientes estrat\'{e}gicos en industria pesquera, agr\'{i}cola y manufactura
+  \item Cumpli\'{o} metas anuales de captaci\'{o}n y fidelizaci\'{o}n de clientes en el sector alimentario
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Control Union Bolivia S.R.L.}{Santa Cruz, Bolivia}{Gestor de Inspecci\'{o}n y Certificaciones}{Mar 2018 -- Dic 2019}
+\begin{itemize}
+  \item Coordin\'{o} inspecciones y certificaciones internacionales (BRC, SQF, IFS, HACCP) para clientes multinacionales
+  \item Gestion\'{o} equipo de inspectores y auditores, planificando operaciones en m\'{u}ltiples regiones de Bolivia
+  \item Cotiz\'{o} servicios de certificaci\'{o}n para clientes de 4+ pa\'{i}ses, generando ingresos recurrentes
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Control Union Per\'{u} S.A.C.}{Lima, Per\'{u}}{Asistente de Operaciones}{Ago 2016 -- Feb 2018}
+\begin{itemize}
+  \item Implement\'{o} sistema ISO/IEC 17020 para organismo de inspecci\'{o}n, obteniendo acreditaci\'{o}n exitosa
+  \item Supervis\'{o} sistema de calidad y evalu\'{o} competencia t\'{e}cnica de +10 inspectores
+  \item Capacit\'{o} personal en procedimientos de inspecci\'{o}n y est\'{a}ndares internacionales de calidad
+\end{itemize}
+
+% ============================================
+% EDUCACI\'{O}N
+% ============================================
+\section{Educaci\'{o}n}
+
+\entry{ESAN Graduate School of Business}{Lima, Per\'{u}}{International Diploma in Business Management}{2023}
+\vspace{0.2em}
+
+\entry{Universidad Nacional del Callao}{Callao, Per\'{u}}{Ingenier\'{i}a Pesquera}{2011 -- 2015}
+\vspace{0.2em}
+
+\entry{Universidad Nacional Agraria La Molina}{Lima, Per\'{u}}{Diplomado en Sistemas de Gesti\'{o}n de Calidad (324 hrs)}{2014 -- 2016}
+\begin{itemize}
+  \item ISO 9001, ISO 17020, ISO 17025, ISO 22000, FSSC 22000, HACCP Avanzado, BRC, SQF, IFS
+\end{itemize}
+
+% ============================================
+% HABILIDADES
+% ============================================
+\section{Habilidades y Competencias}
+
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Gesti\'{o}n:} & Estrategia Comercial, Desarrollo de Negocios, Liderazgo de Equipos, Gesti\'{o}n de Clientes \\
+\textbf{Normativas:} & ISO 9001, ISO/IEC 17020, ISO/IEC 17025, ISO 22000, FSSC 22000, HACCP, BRC, SQF, IFS \\
+\textbf{Sectores:} & Alimentos (Food \& Feed), Pesca, Agricultura, Inspecci\'{o}n, Certificaci\'{o}n, Servicios Anal\'{i}ticos \\
+\textbf{Idiomas:} & Espa\~{n}ol (Nativo), Ingl\'{e}s (Intermedio-Avanzado) \\
+\end{tabularx}
+
+\end{document}
