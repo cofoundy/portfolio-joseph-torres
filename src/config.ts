@@ -5,7 +5,7 @@ export const siteConfig = {
   accentColor: "#1e3a5f", // Azul marino (preferencia del cliente)
   social: {
     email: "joseph_pedragas@hotmail.com",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/joseph-torres-pedragas-b59116a0/",
     twitter: "",
     github: "",
   },
